@@ -1,0 +1,32 @@
+@startuml
+|User 1|
+start
+:Login;
+|User 2|
+:Login;
+|User 1|
+:View Dashboard;
+:Select Item;
+|User 2|
+:View Dashboard;
+:Select Item;
+|User 1|
+:Add to Cart;
+|User 2|
+:View Cart;
+:Remove Item;
+|User 1|
+:Checkout;
+|User 2|
+:View Cart;
+:Checkout;
+|User 1|
+:Make Payment;
+|User 2|
+:Make Payment;
+|User 1|
+:Logout;
+|User 2|
+:Logout;
+stop
+@@enduml
